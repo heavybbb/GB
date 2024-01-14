@@ -1,17 +1,17 @@
-п»ї/*
+/*
 Medium
-Р—Р°РґР°С‡Р° 1
-Р”Р°РЅС‹ РґРІР° СЂР°Р·Р»РёС‡РЅС‹С… РЅР°С‚СѓСЂР°Р»СЊРЅС‹С… С‡РёСЃР»Р° M Рё N. Р’С‹РІРµСЃС‚Рё РЅР° СЌРєСЂР°РЅ РёС…
-РѕР±С‰РёРµ РґРµР»РёС‚РµР»Рё.
+Задача 1
+Даны два различных натуральных числа M и N. Вывести на экран их
+общие делители.
 
 */
 
 using System;
-class Medium_Task11 {
-  static void Main_M1() {
-    Console.WriteLine("Р’РІРµРґРёС‚Рµ С‡РёСЃР»Рѕ N ");
+class Medium_Task1 {
+  static void Main() {
+    Console.WriteLine("Введите чило N ");
     double N = Convert.ToInt32(Console.ReadLine());
-    Console.WriteLine("Р’РІРµРґРёС‚Рµ С‡РёСЃР»Рѕ M ");
+    Console.WriteLine("Введите чило M ");
     double M = Convert.ToInt32(Console.ReadLine());
     double i =1;
     double common_divisor = 0;
