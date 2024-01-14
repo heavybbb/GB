@@ -9,7 +9,7 @@
 using System;
 class Medium_Task2 {
   static void Main() {
-    Console.WriteLine("������� ���� N ");
+    Console.WriteLine("Введите число N ");
     int N = Convert.ToInt32(Console.ReadLine());
     int M = 0;
     int i =1;

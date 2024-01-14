@@ -1,0 +1,14 @@
+C:\git\Introduction\Tasks_Lessons3\DZ_Task3\obj\Debug\net8.0\DZ_Task3.GeneratedMSBuildEditorConfig.editorconfig
+C:\git\Introduction\Tasks_Lessons3\DZ_Task3\obj\Debug\net8.0\DZ_Task3.AssemblyInfoInputs.cache
+C:\git\Introduction\Tasks_Lessons3\DZ_Task3\obj\Debug\net8.0\DZ_Task3.AssemblyInfo.cs
+C:\git\Introduction\Tasks_Lessons3\DZ_Task3\obj\Debug\net8.0\DZ_Task3.csproj.CoreCompileInputs.cache
+C:\git\Introduction\Tasks_Lessons3\DZ_Task3\bin\Debug\net8.0\DZ_Task3.exe
+C:\git\Introduction\Tasks_Lessons3\DZ_Task3\bin\Debug\net8.0\DZ_Task3.deps.json
+C:\git\Introduction\Tasks_Lessons3\DZ_Task3\bin\Debug\net8.0\DZ_Task3.runtimeconfig.json
+C:\git\Introduction\Tasks_Lessons3\DZ_Task3\bin\Debug\net8.0\DZ_Task3.dll
+C:\git\Introduction\Tasks_Lessons3\DZ_Task3\bin\Debug\net8.0\DZ_Task3.pdb
+C:\git\Introduction\Tasks_Lessons3\DZ_Task3\obj\Debug\net8.0\DZ_Task3.dll
+C:\git\Introduction\Tasks_Lessons3\DZ_Task3\obj\Debug\net8.0\refint\DZ_Task3.dll
+C:\git\Introduction\Tasks_Lessons3\DZ_Task3\obj\Debug\net8.0\DZ_Task3.pdb
+C:\git\Introduction\Tasks_Lessons3\DZ_Task3\obj\Debug\net8.0\DZ_Task3.genruntimeconfig.cache
+C:\git\Introduction\Tasks_Lessons3\DZ_Task3\obj\Debug\net8.0\ref\DZ_Task3.dll

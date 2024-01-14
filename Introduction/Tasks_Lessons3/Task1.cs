@@ -3,8 +3,8 @@
 делители числа N.*/
 
 using System;
-class Task1 {
-  static void Main1() {
+class Task {
+  static void Main() {
     Console.WriteLine("Введите чило ");
     double Number1 = Convert.ToInt32(Console.ReadLine());
     for (double Number2 =1 ,  i = 1; i <= Number1; i++)
