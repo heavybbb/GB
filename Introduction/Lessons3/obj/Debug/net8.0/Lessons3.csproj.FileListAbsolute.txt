@@ -1,0 +1,14 @@
+C:\git\Introduction\Lessons3\bin\Debug\net8.0\Lessons3.exe
+C:\git\Introduction\Lessons3\bin\Debug\net8.0\Lessons3.deps.json
+C:\git\Introduction\Lessons3\bin\Debug\net8.0\Lessons3.runtimeconfig.json
+C:\git\Introduction\Lessons3\bin\Debug\net8.0\Lessons3.dll
+C:\git\Introduction\Lessons3\bin\Debug\net8.0\Lessons3.pdb
+C:\git\Introduction\Lessons3\obj\Debug\net8.0\Lessons3.GeneratedMSBuildEditorConfig.editorconfig
+C:\git\Introduction\Lessons3\obj\Debug\net8.0\Lessons3.AssemblyInfoInputs.cache
+C:\git\Introduction\Lessons3\obj\Debug\net8.0\Lessons3.AssemblyInfo.cs
+C:\git\Introduction\Lessons3\obj\Debug\net8.0\Lessons3.csproj.CoreCompileInputs.cache
+C:\git\Introduction\Lessons3\obj\Debug\net8.0\Lessons3.dll
+C:\git\Introduction\Lessons3\obj\Debug\net8.0\refint\Lessons3.dll
+C:\git\Introduction\Lessons3\obj\Debug\net8.0\Lessons3.pdb
+C:\git\Introduction\Lessons3\obj\Debug\net8.0\Lessons3.genruntimeconfig.cache
+C:\git\Introduction\Lessons3\obj\Debug\net8.0\ref\Lessons3.dll
