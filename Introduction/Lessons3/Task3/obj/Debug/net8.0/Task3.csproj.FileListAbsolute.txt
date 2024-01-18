@@ -1,0 +1,15 @@
+C:\git\Introduction\Lessons3\Task3\obj\Debug\net8.0\Task3.GeneratedMSBuildEditorConfig.editorconfig
+C:\git\Introduction\Lessons3\Task3\obj\Debug\net8.0\Task3.AssemblyInfoInputs.cache
+C:\git\Introduction\Lessons3\Task3\obj\Debug\net8.0\Task3.AssemblyInfo.cs
+C:\git\Introduction\Lessons3\Task3\obj\Debug\net8.0\Task3.csproj.CoreCompileInputs.cache
+C:\git\Introduction\Lessons3\Task3\obj\Debug\net8.0\Task3.sourcelink.json
+C:\git\Introduction\Lessons3\Task3\bin\Debug\net8.0\Task3.exe
+C:\git\Introduction\Lessons3\Task3\bin\Debug\net8.0\Task3.deps.json
+C:\git\Introduction\Lessons3\Task3\bin\Debug\net8.0\Task3.runtimeconfig.json
+C:\git\Introduction\Lessons3\Task3\bin\Debug\net8.0\Task3.dll
+C:\git\Introduction\Lessons3\Task3\bin\Debug\net8.0\Task3.pdb
+C:\git\Introduction\Lessons3\Task3\obj\Debug\net8.0\Task3.dll
+C:\git\Introduction\Lessons3\Task3\obj\Debug\net8.0\refint\Task3.dll
+C:\git\Introduction\Lessons3\Task3\obj\Debug\net8.0\Task3.pdb
+C:\git\Introduction\Lessons3\Task3\obj\Debug\net8.0\Task3.genruntimeconfig.cache
+C:\git\Introduction\Lessons3\Task3\obj\Debug\net8.0\ref\Task3.dll

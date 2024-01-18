@@ -1,0 +1,15 @@
+C:\git\Introduction\Lessons4\example2\bin\Debug\net8.0\example2.exe
+C:\git\Introduction\Lessons4\example2\bin\Debug\net8.0\example2.deps.json
+C:\git\Introduction\Lessons4\example2\bin\Debug\net8.0\example2.runtimeconfig.json
+C:\git\Introduction\Lessons4\example2\bin\Debug\net8.0\example2.dll
+C:\git\Introduction\Lessons4\example2\bin\Debug\net8.0\example2.pdb
+C:\git\Introduction\Lessons4\example2\obj\Debug\net8.0\example2.GeneratedMSBuildEditorConfig.editorconfig
+C:\git\Introduction\Lessons4\example2\obj\Debug\net8.0\example2.AssemblyInfoInputs.cache
+C:\git\Introduction\Lessons4\example2\obj\Debug\net8.0\example2.AssemblyInfo.cs
+C:\git\Introduction\Lessons4\example2\obj\Debug\net8.0\example2.csproj.CoreCompileInputs.cache
+C:\git\Introduction\Lessons4\example2\obj\Debug\net8.0\example2.sourcelink.json
+C:\git\Introduction\Lessons4\example2\obj\Debug\net8.0\example2.dll
+C:\git\Introduction\Lessons4\example2\obj\Debug\net8.0\refint\example2.dll
+C:\git\Introduction\Lessons4\example2\obj\Debug\net8.0\example2.pdb
+C:\git\Introduction\Lessons4\example2\obj\Debug\net8.0\example2.genruntimeconfig.cache
+C:\git\Introduction\Lessons4\example2\obj\Debug\net8.0\ref\example2.dll
