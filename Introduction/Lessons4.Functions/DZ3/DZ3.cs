@@ -1,14 +1,24 @@
-﻿class Example
-{
-    // Метод, принадлежащий классу Example
-    static void PrintMessage()
-    {
-        Console.WriteLine("Привет, это пример метода с сигнатурой static void.");
-    }
+﻿using System;
 
+public class NEW
+{
     static void Main()
     {
-        // Вызов статического метода без создания объекта класса
-        //PrintMessage();
+    int[] numbers = {10,11,12,13,14,15,16};
+//Передача массива в функцию
+    ReverseMassiv(numbers);
+    static void ReverseMassiv(int[] array)
+    {
+        int length = array.Length;
+        for (int i = 0; i < length; i++)
+        {
+           Console.WriteLine(array[length -1 - i]);
+        }
+        
     }
+
+        
 }
+
+}
+        
