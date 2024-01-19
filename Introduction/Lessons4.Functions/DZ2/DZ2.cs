@@ -5,6 +5,8 @@
 using System;
 using System.Globalization;
 using System.Runtime.CompilerServices;
+// Конфликт
+
 
 class Program
 {
@@ -34,6 +36,7 @@ class Program
                         }
                          
 //вывод в консоль количества четных чисел в массиве.
+ 
                 Console.WriteLine(even_namber);
 
  // Передаем в функцию массив.
@@ -46,8 +49,10 @@ class Program
                                 {
                                     Console.WriteLine(numbers[j]);
                     }
+//423234324gitewrewr
 
         }
     }
 }
 
+//45664567546456546546
