@@ -15,6 +15,8 @@ int[,] numbers = new int[,] {
 1   2   3   4 */
 
 using System;
+using System.Globalization;
+using System.IO.Compression;
 
 //Тело класса будет написано студентом. Класс обязан иметь статический метод PrintResult()
 class UserInputToCompileForTest
@@ -27,7 +29,19 @@ class UserInputToCompileForTest
 
 // Обмен первой с последней строкой
     public static int[,] SwapFirstLastRows(int[,] array)
-    {
+    {   
+        int x=0;
+         int y=0;
+        for (;x>= array.GetLength(0);x++)
+       
+        {
+            x=x+1;
+        }
+        for (int i =0, j=0; i>=array.GetLength(0) && j>= array.GetLength(1);i++) 
+            {
+                int[] temparray = [i];
+
+            }
         //Напишите свое решение здесь
     }
 
