@@ -30,16 +30,12 @@ class UserInputToCompileForTest
 // Обмен первой с последней строкой
     public static int[,] SwapFirstLastRows(int[,] array)
     {   
-        int x=0;
-         int y=0;
-        for (;x>= array.GetLength(0);x++)
+        int x=array.GetLength(0);
+        int y=array.GetLength(1);
        
-        {
-            x=x+1;
-        }
-        for (int i =0, j=0; i>=array.GetLength(0) && j>= array.GetLength(1);i++) 
+    for (int i =0, j=0; i<=array.GetLength(0) && j<= array.GetLength(1);i++) 
             {
-                int[] temparray = [i];
+              int[] temparray = array[i,j];
 
             }
         //Напишите свое решение здесь
