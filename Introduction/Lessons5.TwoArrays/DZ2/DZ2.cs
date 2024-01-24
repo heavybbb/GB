@@ -17,39 +17,73 @@ int[,] numbers = new int[,] {
 using System;
 using System.Globalization;
 using System.IO.Compression;
+using System.Runtime.Serialization.Formatters;
+using System.Threading.Tasks.Dataflow;
 
 //Тело класса будет написано студентом. Класс обязан иметь статический метод PrintResult()
 class UserInputToCompileForTest
 {
     // Печать массива
-    public static void PrintArray(int[,] array)
+   public static void PrintArray(int[,] array)
     {
-                //Напишите свое решение здесь
-    }
+   //Console.WriteLine(array.GetLength(0));
+   
+    for (int j=0;j< array.GetLength(0);j++)
+            {
+            //Console.WriteLine($"{numbers[i,j]} {numbers.GetLength(1)} {j}");
+        for (int i=0;i < array.GetLength(1);i++)
+        {
+            Console.Write(array[j,i] + "\t");
+        }
+        Console.WriteLine();
+            }
+        return ; 
+    } 
 
 // Обмен первой с последней строкой
     public static int[,] SwapFirstLastRows(int[,] array)
-    {   
-        int x=array.GetLength(0);
-        int y=array.GetLength(1);
-       
-    for (int i =0, j=0; i<=array.GetLength(0) && j<= array.GetLength(1);i++) 
+    {       
+        int k= array.GetLength(0)-1;
+    for (int j=0,i=0; j<array.GetLength(1) ;j++) 
             {
-              int[] temparray = array[i,j];
-
+                 int temparray = array[i,j];
+                      array[i,j]=array[k,j];
+                      array[k,j]=temparray;
+              
+                      
             }
-        //Напишите свое решение здесь
+
+          
+           // return(array);
+            PrintArray(array);
+             
+           return array;
+         
     }
+     
 
 // Обмен элементами массива
     public static void SwapItems(int[,] array, int i)
     {
-       //Напишите свое решение здесь
+        
+//Напишите свое решение здесь
     }
 
     public static void PrintResult(int[,] numbers)
     {
-        //Напишите свое решение здесь
+       
+       for (int j=0;j< numbers.GetLength(0);j++)
+            {
+            //Console.WriteLine($"{numbers[i,j]} {numbers.GetLength(1)} {j}");
+        for (int i=0;i < numbers.GetLength(1);i++)
+        {
+            Console.Write(numbers[j,i] + "\t");
+        }
+        Console.WriteLine();
+           }
+           //Console.WriteLine(numbers);
+             // return;
+       //Напишите свое решение здесь
     }
 }
 
@@ -97,7 +131,13 @@ class Answer
                 {5, 6, 7, 8},
                 {9, 10, 11, 12}
             }; 
-        }
+           // Console.WriteLine(numbers);
+       /*  }
         UserInputToCompileForTest.PrintResult(numbers);
+        */
+       // UserInputToCompileForTest.PrintArray(numbers);
+ 
+        UserInputToCompileForTest.SwapFirstLastRows(numbers);
     }
+}
 }
