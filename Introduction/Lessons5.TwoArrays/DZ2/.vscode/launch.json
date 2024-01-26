@@ -1,0 +1,11 @@
+{
+    "configurations": [
+        {
+            "name": "C#: DZ2",
+            "type": "dotnet",
+            "request": "launch",
+            "projectPath": "${workspaceFolder}\\DZ2.csproj",
+            "launchConfigurationId": "TargetFramework=;DZ2"
+        }
+    ]
+}
