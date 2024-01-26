@@ -1,0 +1,15 @@
+C:\git\GB\Introduction\Lessons6.ArrayAndString\DZ1\bin\Debug\net8.0\DZ1.exe
+C:\git\GB\Introduction\Lessons6.ArrayAndString\DZ1\bin\Debug\net8.0\DZ1.deps.json
+C:\git\GB\Introduction\Lessons6.ArrayAndString\DZ1\bin\Debug\net8.0\DZ1.runtimeconfig.json
+C:\git\GB\Introduction\Lessons6.ArrayAndString\DZ1\bin\Debug\net8.0\DZ1.dll
+C:\git\GB\Introduction\Lessons6.ArrayAndString\DZ1\bin\Debug\net8.0\DZ1.pdb
+C:\git\GB\Introduction\Lessons6.ArrayAndString\DZ1\obj\Debug\net8.0\DZ1.GeneratedMSBuildEditorConfig.editorconfig
+C:\git\GB\Introduction\Lessons6.ArrayAndString\DZ1\obj\Debug\net8.0\DZ1.AssemblyInfoInputs.cache
+C:\git\GB\Introduction\Lessons6.ArrayAndString\DZ1\obj\Debug\net8.0\DZ1.AssemblyInfo.cs
+C:\git\GB\Introduction\Lessons6.ArrayAndString\DZ1\obj\Debug\net8.0\DZ1.csproj.CoreCompileInputs.cache
+C:\git\GB\Introduction\Lessons6.ArrayAndString\DZ1\obj\Debug\net8.0\DZ1.sourcelink.json
+C:\git\GB\Introduction\Lessons6.ArrayAndString\DZ1\obj\Debug\net8.0\DZ1.dll
+C:\git\GB\Introduction\Lessons6.ArrayAndString\DZ1\obj\Debug\net8.0\refint\DZ1.dll
+C:\git\GB\Introduction\Lessons6.ArrayAndString\DZ1\obj\Debug\net8.0\DZ1.pdb
+C:\git\GB\Introduction\Lessons6.ArrayAndString\DZ1\obj\Debug\net8.0\DZ1.genruntimeconfig.cache
+C:\git\GB\Introduction\Lessons6.ArrayAndString\DZ1\obj\Debug\net8.0\ref\DZ1.dll
