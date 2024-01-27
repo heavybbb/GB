@@ -1,0 +1,15 @@
+C:\Git\Introduction\Lessons6.ArrayAndString\Example1\bin\Debug\net8.0\Example1.exe
+C:\Git\Introduction\Lessons6.ArrayAndString\Example1\bin\Debug\net8.0\Example1.deps.json
+C:\Git\Introduction\Lessons6.ArrayAndString\Example1\bin\Debug\net8.0\Example1.runtimeconfig.json
+C:\Git\Introduction\Lessons6.ArrayAndString\Example1\bin\Debug\net8.0\Example1.dll
+C:\Git\Introduction\Lessons6.ArrayAndString\Example1\bin\Debug\net8.0\Example1.pdb
+C:\Git\Introduction\Lessons6.ArrayAndString\Example1\obj\Debug\net8.0\Example1.GeneratedMSBuildEditorConfig.editorconfig
+C:\Git\Introduction\Lessons6.ArrayAndString\Example1\obj\Debug\net8.0\Example1.AssemblyInfoInputs.cache
+C:\Git\Introduction\Lessons6.ArrayAndString\Example1\obj\Debug\net8.0\Example1.AssemblyInfo.cs
+C:\Git\Introduction\Lessons6.ArrayAndString\Example1\obj\Debug\net8.0\Example1.csproj.CoreCompileInputs.cache
+C:\Git\Introduction\Lessons6.ArrayAndString\Example1\obj\Debug\net8.0\Example1.sourcelink.json
+C:\Git\Introduction\Lessons6.ArrayAndString\Example1\obj\Debug\net8.0\Example1.dll
+C:\Git\Introduction\Lessons6.ArrayAndString\Example1\obj\Debug\net8.0\refint\Example1.dll
+C:\Git\Introduction\Lessons6.ArrayAndString\Example1\obj\Debug\net8.0\Example1.pdb
+C:\Git\Introduction\Lessons6.ArrayAndString\Example1\obj\Debug\net8.0\Example1.genruntimeconfig.cache
+C:\Git\Introduction\Lessons6.ArrayAndString\Example1\obj\Debug\net8.0\ref\Example1.dll
