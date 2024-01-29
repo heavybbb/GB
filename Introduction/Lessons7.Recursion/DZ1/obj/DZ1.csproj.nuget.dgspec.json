@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "c:\\Git\\Introduction\\Lessons6.ArrayAndString\\DZ4\\DZ4.csproj": {}
+    "C:\\Git\\Introduction\\Lessons7.Recursion\\DZ1\\DZ1.csproj": {}
   },
   "projects": {
-    "c:\\Git\\Introduction\\Lessons6.ArrayAndString\\DZ4\\DZ4.csproj": {
+    "C:\\Git\\Introduction\\Lessons7.Recursion\\DZ1\\DZ1.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "c:\\Git\\Introduction\\Lessons6.ArrayAndString\\DZ4\\DZ4.csproj",
-        "projectName": "DZ4",
-        "projectPath": "c:\\Git\\Introduction\\Lessons6.ArrayAndString\\DZ4\\DZ4.csproj",
+        "projectUniqueName": "C:\\Git\\Introduction\\Lessons7.Recursion\\DZ1\\DZ1.csproj",
+        "projectName": "DZ1",
+        "projectPath": "C:\\Git\\Introduction\\Lessons7.Recursion\\DZ1\\DZ1.csproj",
         "packagesPath": "C:\\Users\\Admin\\.nuget\\packages\\",
-        "outputPath": "c:\\Git\\Introduction\\Lessons6.ArrayAndString\\DZ4\\obj\\",
+        "outputPath": "C:\\Git\\Introduction\\Lessons7.Recursion\\DZ1\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Admin\\AppData\\Roaming\\NuGet\\NuGet.Config"
@@ -53,7 +53,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Users\\Admin\\AppData\\Roaming\\.dotnet\\sdk\\8.0.100/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.101/PortableRuntimeIdentifierGraph.json"
         }
       }
     }
