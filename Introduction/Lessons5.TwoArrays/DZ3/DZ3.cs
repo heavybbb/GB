@@ -1,3 +1,17 @@
+/* Задайте прямоугольный двумерный массив. 
+Напишите программу, которая будет находить строку 
+с наименьшей суммой элементов.
+
+Начальные условия:
+
+// Начальные условия
+int[,] numbers = new int[,] {
+    {1, 2, 3},
+    {1, 1, 0},
+    {7, 8, 2},
+    {9, 10, 11}
+};
+Выводится: 1 */
 using System;
 
 //Тело класса будет написано студентом. Класс обязан иметь статический метод PrintResult()
@@ -6,45 +20,57 @@ class UserInputToCompileForTest
     /// Вычисление сумм по строкам (на выходе массив с суммами строк)
     public static int[] SumRows(int[,] array)
     {
-int sum2 =0;
-int sum3=0;
 int i=0;
 int j=0;
 int k=array.GetLength(0);
 int[] sum1= new int [k];
-int[,] two_convert_array = new int[1, sum1.Length];
 for ( i=0; i < array.GetLength(0);i++)
 {
     for (j=0; j < array.GetLength(1);j++)
     {
-
-          sum1[i]+=array[i,j];
-          two_convert_array[0, i] = sum1[i];
-          //Console.Write(two_convert_array[0,i] + "\t");
+     sum1[i]+=array[i,j];
     }
-      //Console.Write(sum1[i] + "\t");
-      Console.WriteLine();
-      Console.Write(two_convert_array[1,i] + "\t");
+    //Проверка, печать суммы каждой строки
+     /*  Console.Write(sum1[i] + "\t");
+      Console.WriteLine(); */
+  
 }
-//MinIndex(two_convert_array);
-return two_convert_array;
+return sum1;
 
-    }
+}
+
+
 // Получение индекса минимального элемента в одномерном массиве
-    /* public static int MinIndex(int[] array)
+  public static int MinIndex(int[] array)
     {
-//SumRows();
-      int sum2=array.Min();
-      Console.WriteLine(sum2);
-    }  */
+// Вычисление минимального числа в массиве
+     int sum2=array.Min();
+//Вычисление ИНДЕКСА минимального числа в массиве
+      int index = Array.IndexOf(array, sum2);
+      
+      return index;
+    }    
+    
     public static void PrintResult(int[,] numbers)
-    {   
-           
-     // UserInputToCompileForTest.SumRows(numbers);
-       //Напишите свое решение здесь
-    }
-}
+    { 
+   //Мы вызываем метод SumRows с передачей ему массива numbers. 
+   //Этот метод вычисляет сумму каждой строки матрицы и возвращает массив, содержащий суммы.
+   int[] rowSums = SumRows(numbers);
 
+    // Выводим в консоль суммы каждой строки
+    foreach (int sum in rowSums)
+    {
+        Console.Write(sum + "\t");
+    }
+    Console.WriteLine(); 
+
+    // Передали в функцию MinIndex суммы каждой строки 
+    // MinIndex нашла и возвратила индекс минимального числа в массиве.
+    int minIndex = MinIndex(rowSums);
+    Console.WriteLine($"{minIndex}");
+
+      }
+}
 //Не удаляйте и не меняйте класс Answer!
 class Answer
 {
@@ -92,6 +118,6 @@ class Answer
     };      
         }
         UserInputToCompileForTest.PrintResult(numbers);
-        UserInputToCompileForTest.SumRows(numbers);
+       // UserInputToCompileForTest.SumRows(numbers);
     }
 }
