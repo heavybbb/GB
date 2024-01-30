@@ -1,0 +1,15 @@
+C:\Git\Introduction\Lessons6.ArrayAndString\DZ4\bin\Debug\net8.0\DZ4.exe
+C:\Git\Introduction\Lessons6.ArrayAndString\DZ4\bin\Debug\net8.0\DZ4.deps.json
+C:\Git\Introduction\Lessons6.ArrayAndString\DZ4\bin\Debug\net8.0\DZ4.runtimeconfig.json
+C:\Git\Introduction\Lessons6.ArrayAndString\DZ4\bin\Debug\net8.0\DZ4.dll
+C:\Git\Introduction\Lessons6.ArrayAndString\DZ4\bin\Debug\net8.0\DZ4.pdb
+C:\Git\Introduction\Lessons6.ArrayAndString\DZ4\obj\Debug\net8.0\DZ4.GeneratedMSBuildEditorConfig.editorconfig
+C:\Git\Introduction\Lessons6.ArrayAndString\DZ4\obj\Debug\net8.0\DZ4.AssemblyInfoInputs.cache
+C:\Git\Introduction\Lessons6.ArrayAndString\DZ4\obj\Debug\net8.0\DZ4.AssemblyInfo.cs
+C:\Git\Introduction\Lessons6.ArrayAndString\DZ4\obj\Debug\net8.0\DZ4.csproj.CoreCompileInputs.cache
+C:\Git\Introduction\Lessons6.ArrayAndString\DZ4\obj\Debug\net8.0\DZ4.sourcelink.json
+C:\Git\Introduction\Lessons6.ArrayAndString\DZ4\obj\Debug\net8.0\DZ4.dll
+C:\Git\Introduction\Lessons6.ArrayAndString\DZ4\obj\Debug\net8.0\refint\DZ4.dll
+C:\Git\Introduction\Lessons6.ArrayAndString\DZ4\obj\Debug\net8.0\DZ4.pdb
+C:\Git\Introduction\Lessons6.ArrayAndString\DZ4\obj\Debug\net8.0\DZ4.genruntimeconfig.cache
+C:\Git\Introduction\Lessons6.ArrayAndString\DZ4\obj\Debug\net8.0\ref\DZ4.dll
