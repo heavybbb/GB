@@ -7,17 +7,15 @@ class Program
 {
     static void Main()
     {
-
         Console.Write("Введите первое число: ");
         int firstNumber = Convert.ToInt32(Console.ReadLine());
 
         Console.Write("Введите второе число: ");
         int secondNumber = Convert.ToInt32(Console.ReadLine());
 
-        AllNumbersFromOneToTen(firstNumber, secondNumber);
+        AllNumbersFromFirstNumberToSecondNumber(firstNumber, secondNumber);
     }
-    static void AllNumbersFromOneToTen(int firstNumber, int secondNumber)
-
+    static void AllNumbersFromFirstNumberToSecondNumber(int firstNumber, int secondNumber)
     {
         if (firstNumber == secondNumber)
         {
@@ -33,7 +31,7 @@ class Program
             firstNumber--;
             Console.Write(firstNumber + " ");
         }
-        AllNumbersFromOneToTen(firstNumber, secondNumber);
+        AllNumbersFromFirstNumberToSecondNumber(firstNumber, secondNumber);
     }
 
 }
