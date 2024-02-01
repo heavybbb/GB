@@ -12,13 +12,13 @@ internal class Program
                             {'r','t','y'},
                             {'u','i','f'}
                             };
-                            //Передаю в функцию symbols в массив str
-                            char array1= symbols(str);
+                            //Передаю в функцию CreateStrFromSymbols в массив str
+                            char array1= CreateStrFromSymbols(str);
                             // Вывод в консоль строки из массива
                             Console.Write(array1);
 
 //Функция которая принимает массив str, склеивает буквы в одну строку
-        static char symbols(char[,] arraystr)
+        static char CreateStrFromSymbols(char[,] arraystr)
         {
         {
             char lastchar = '\0';

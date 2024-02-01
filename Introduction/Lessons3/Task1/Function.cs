@@ -1,10 +1,10 @@
 double Calculateformula(int a, int b, int c, int d)
 {
-    double numenator =a * b;
+    double numenator = a * b;
     int denomenator = c + d;
     double result = numenator / denomenator;
     return result;
 
 }
-double result = Calculateformula(1,2,3,4);
+double result = Calculateformula(1, 2, 3, 4);
 Console.WriteLine(result);
