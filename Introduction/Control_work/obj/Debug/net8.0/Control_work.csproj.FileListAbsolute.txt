@@ -1,0 +1,15 @@
+C:\git\GB\Introduction\Control_work\bin\Debug\net8.0\Control_work.exe
+C:\git\GB\Introduction\Control_work\bin\Debug\net8.0\Control_work.deps.json
+C:\git\GB\Introduction\Control_work\bin\Debug\net8.0\Control_work.runtimeconfig.json
+C:\git\GB\Introduction\Control_work\bin\Debug\net8.0\Control_work.dll
+C:\git\GB\Introduction\Control_work\bin\Debug\net8.0\Control_work.pdb
+C:\git\GB\Introduction\Control_work\obj\Debug\net8.0\Control_work.GeneratedMSBuildEditorConfig.editorconfig
+C:\git\GB\Introduction\Control_work\obj\Debug\net8.0\Control_work.AssemblyInfoInputs.cache
+C:\git\GB\Introduction\Control_work\obj\Debug\net8.0\Control_work.AssemblyInfo.cs
+C:\git\GB\Introduction\Control_work\obj\Debug\net8.0\Control_work.csproj.CoreCompileInputs.cache
+C:\git\GB\Introduction\Control_work\obj\Debug\net8.0\Control_work.sourcelink.json
+C:\git\GB\Introduction\Control_work\obj\Debug\net8.0\Control_work.dll
+C:\git\GB\Introduction\Control_work\obj\Debug\net8.0\refint\Control_work.dll
+C:\git\GB\Introduction\Control_work\obj\Debug\net8.0\Control_work.pdb
+C:\git\GB\Introduction\Control_work\obj\Debug\net8.0\Control_work.genruntimeconfig.cache
+C:\git\GB\Introduction\Control_work\obj\Debug\net8.0\ref\Control_work.dll
