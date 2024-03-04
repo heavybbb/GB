@@ -10,7 +10,31 @@ class Program
 {
     static void Main()
     {
-        Console.WriteLine("Введите строку");
-        string input = Console.ReadLine();
+
+
+        string inputString = " ";
+        string[] inputStringArray = new string[100];
+        for (int i = 0; inputStringArray.Length >= i && inputString != ""; i++)
+
+        {
+            Console.WriteLine("Введите строку, по завершении нажмите Enter");
+            inputString = Console.ReadLine();
+            inputStringArray[i] = inputString;
+        }
+
+            string[] newArray = new string[100];
+            int count = 0;
+            foreach (string item in inputStringArray)
+            {
+                if (item.Length <= 3)
+                {
+                    newArray[count] = item;
+                    Console.WriteLine(newArray[count]);
+                    count++;
+                }
+            }
     }
 }
+
+
+    
