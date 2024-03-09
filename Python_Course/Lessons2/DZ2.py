@@ -10,11 +10,21 @@
 #s = 12
 #p = 27
 #######   3 9
-S = 12
-P = 27
-
-for X in range(1, S+1):
-    Y = S - X
-    if X * Y == P and X <= Y:
-        print(X, Y)
+s = 12
+p = 27
+# Решение №1
+# for x in range(1, s):
+#     y = s - x
+#     if x * y ==p and x <= y:
+#         print(x, y)
     
+#Решение 2 (правильное)
+solutions = []
+for i in range(1, 1001):
+    for j in range(1, 1001):
+        if s == i + j and p == i * j:
+            solutions.append((min(i, j), max(i, j)))
+solutions = list(set(solutions))
+
+for solution in solutions:
+    print(solution[0], solution[1])
