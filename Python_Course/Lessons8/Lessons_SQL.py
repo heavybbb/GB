@@ -31,5 +31,5 @@ if choice == "Все записи":
 if choice == "Только Ваня":
     msg = str(select_ivan())
     msgbox(msg, "Результат запроса")
-conn.commit()
-conn.close()
+# conn.commit()
+# conn.close()
