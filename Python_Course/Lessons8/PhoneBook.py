@@ -15,9 +15,7 @@ import sqlite3 as sl
 import easygui as eg
 
 with sl.connect('phonebook.db') as conn:
-        #conn.execute('pragma encoding="UTF-8"')
         cur = conn.cursor()
-       # conn.execute('pragma encoding="UTF-8"')
         cur.execute("""
             CREATE TABLE IF NOT EXISTS phone
             (
@@ -29,11 +27,13 @@ with sl.connect('phonebook.db') as conn:
             );
             """)
 
+
 def view_contacts():
     conn = sl.connect('phonebook.db')
     cur = conn.cursor()
     cur.execute('SELECT * FROM phone')
     contacts = cur.fetchall()
+    conn.commit()
     conn.close()
     if contacts:
         contact_info = '\n'.join([f"ID: {contact[0]}, Имя: {contact[1]}, Фамилия: {contact[2]}, Номер телефона: {contact[3]}, E-mail: {contact[4]}" for contact in contacts])
@@ -42,7 +42,6 @@ def view_contacts():
         eg.msgbox(msg='пусто', title='Список контактов')
 
 def add_contact(name, famele, number, email):
-   
     conn = sl.connect('phonebook.db')
     cur = conn.cursor()
     cur.execute('INSERT INTO phone (name, famele, number, email) VALUES (?, ?, ?, ?)', (name, famele, number, email))
@@ -58,7 +57,7 @@ def import_contacts(file_path):
             imported_contacts = [tuple(line.strip().split(',')) for line in file.readlines()]
             cur.executemany('INSERT INTO phone (name, famele, number, email) VALUES (?, ?, ?, ?)', imported_contacts)
             conn.commit()
-        conn.close()
+            conn.close()
         eg.msgbox(msg='Контакты импортированы.', title='Импорт контактов')
     except FileNotFoundError:
         eg.msgbox(msg='Файл не найден.', title='Ошибка')
@@ -99,9 +98,11 @@ def main():
         if choice == 'Просмотр контактов':
             view_contacts()
         elif choice == 'Добавление контакта':
-            name, famele, number, email = eg.multenterbox(msg='Введите данные контакта:', title='Добавление контакта', fields=['Имя', 'Фамилия', 'Номер телефона', 'E-mail'])
-            if name and famele and number and email:
+           input_data = eg.multenterbox(msg='Введите данные контакта:', title='Добавление контакта', fields=['Имя', 'Фамилия', 'Номер телефона', 'E-mail'])
+           if input_data:
+                name, famele, number, email = input_data
                 add_contact(name, famele, number, email)
+                    
         elif choice == 'Импорт контактов':
             file_path = eg.fileopenbox(msg='Выберите файл для импорта:', title='Импорт контактов', filetypes=['*.txt'])
             if file_path:
