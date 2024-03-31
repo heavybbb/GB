@@ -20,24 +20,47 @@
 # На выходе:
 
 # Парам пам-пам
-def rhythm(str):   
-        phrase = str.split()
-        list_1 = []
-        for word in phrase:
-        # word=word.split("-")
-            vowels = 0
-            for i in word:
-                if i in 'аеёиоуыэюя':
-                 vowels += 1
-            list_1.append(vowels)
-        return len(list_1) == list_1.count(list_1[0])
+# def slog(str):   
+#         phrase = str.split()
+#         list_1 = []
+#         for word in phrase:
+#         # word=word.split("-")
+#             vowels = 0
+#             for i in word:
+#                 if i in 'аеёиоуыэюя':
+#                  vowels += 1
+#             list_1.append(vowels)
+#         return len(list_1) == list_1.count(list_1[0])
 
 
-stroka = 'какве-терсме-ётлис-ти'
-if " " not in stroka:
-    print("Количество фраз должно быть больше одной!")
-else:
-    if rhythm(stroka):
-        print('Парам пам-пам')
+# stroka = 'пара-ра-рам рам-пам-папам па-ра-па-дам'
+# if " " not in stroka:
+#     print("Количество фраз должно быть больше одной!")
+# else:
+#     if slog(stroka):
+#         print('Парам пам-пам')
+#     else:
+#         print('Пам парам')
+
+stroka = 'пара-ра-рам рам-пам-папам па-ра-па-дам'
+list_1=[]
+list_2 = 'аеёиоуыэюя'
+list_3=[]
+def all_word(stih):
+    word=stih.split()
+    return word
+for phraza in all_word(str(stroka)):
+   # print(phraza)
+    for i in phraza.split():
+        print(i)
+        for list_2 in i:
+            if i in phraza.split('-'):
+             y =0
+             y+=1
+             list_1 = list_1.append(i)
+             print(list_1)
     else:
-        print('Пам парам')
+           # print(phraza)
+        print(list_2)
+       # len(list_1) == list_1.count(list_1[0])
+        #print(list_1)
