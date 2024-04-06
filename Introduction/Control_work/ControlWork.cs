@@ -17,7 +17,7 @@ class Program
         for (int i = 0; inputStringArray.Length >= i && inputString != ""; i++)
 
         {
-            Console.WriteLine("Введите строку, по завершении нажмите Enter");
+            Console.WriteLine("Введите строку, по завершении ввода нажмите Enter ничего не вводя");
             inputString = Console.ReadLine();
             inputStringArray[i] = inputString;
         }
@@ -31,7 +31,9 @@ class Program
                     newArray[count] = item;
                     Console.WriteLine(newArray[count]);
                     count++;
+                
                 }
+
             }
     }
 }
