@@ -13,7 +13,12 @@ lst += ['human'] * 10
 random.shuffle(lst)
 data = pd.DataFrame({'whoAmI':lst})
 data.head()
-print(data)
+#print(data)
 
-encoder_data=encoder.fit_transform(data[['whoAmI']])
-print(encoder_data)
+encoded_lst=encoder.fit_transform(data[['whoAmI']])
+#print(encoded_lst)
+
+encoded_data = pd.DataFrame(encoded_lst.toarray(), columns=encoder.get_feature_names_out(['whoAmI']))
+data_encoded = pd.concat([data, encoded_data], axis=1)
+data_encoded.drop('whoAmI', axis=1, inplace=True)
+print(data_encoded)
