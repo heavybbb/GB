@@ -28,10 +28,8 @@ class Program
             {
                 if (item.Length <= 3)
                 {
-                    newArray[count] = item;
-                    Console.WriteLine(newArray[count]);
-                    count++;
-                
+                   Console.WriteLine(item);
+                                    
                 }
 
             }
