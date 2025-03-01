@@ -1,0 +1,154 @@
+INFO 2025-03-01 14:53:49,956 autoreload 30472 10068 Watching for file changes with StatReloader
+INFO 2025-03-01 14:57:34,654 autoreload 30472 10068 C:\git\IR\recept\Recept\recipebookproject\settings.py changed, reloading.
+INFO 2025-03-01 14:57:35,361 autoreload 20808 5964 Watching for file changes with StatReloader
+INFO 2025-03-01 22:12:38,526 autoreload 9536 9376 Watching for file changes with StatReloader
+ERROR 2025-03-01 22:16:04,469 exception 9536 5836 Invalid HTTP_HOST header: 'localhost:8000'. You may need to add 'localhost' to ALLOWED_HOSTS.
+Traceback (most recent call last):
+  File "C:\Users\KDA\AppData\Roaming\Python\Python311\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\KDA\AppData\Roaming\Python\Python311\site-packages\django\utils\deprecation.py", line 133, in __call__
+    response = self.process_request(request)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\KDA\AppData\Roaming\Python\Python311\site-packages\django\middleware\common.py", line 48, in process_request
+    host = request.get_host()
+           ^^^^^^^^^^^^^^^^^^
+  File "C:\Users\KDA\AppData\Roaming\Python\Python311\site-packages\django\http\request.py", line 151, in get_host
+    raise DisallowedHost(msg)
+django.core.exceptions.DisallowedHost: Invalid HTTP_HOST header: 'localhost:8000'. You may need to add 'localhost' to ALLOWED_HOSTS.
+WARNING 2025-03-01 22:16:04,750 log 9536 5836 Bad Request: /
+WARNING 2025-03-01 22:16:04,752 basehttp 9536 5836 "GET / HTTP/1.1" 400 74863
+ERROR 2025-03-01 22:16:05,703 exception 9536 25120 Invalid HTTP_HOST header: 'localhost:8000'. You may need to add 'localhost' to ALLOWED_HOSTS.
+Traceback (most recent call last):
+  File "C:\Users\KDA\AppData\Roaming\Python\Python311\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\KDA\AppData\Roaming\Python\Python311\site-packages\django\utils\deprecation.py", line 133, in __call__
+    response = self.process_request(request)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\KDA\AppData\Roaming\Python\Python311\site-packages\django\middleware\common.py", line 48, in process_request
+    host = request.get_host()
+           ^^^^^^^^^^^^^^^^^^
+  File "C:\Users\KDA\AppData\Roaming\Python\Python311\site-packages\django\http\request.py", line 151, in get_host
+    raise DisallowedHost(msg)
+django.core.exceptions.DisallowedHost: Invalid HTTP_HOST header: 'localhost:8000'. You may need to add 'localhost' to ALLOWED_HOSTS.
+WARNING 2025-03-01 22:16:05,778 log 9536 25120 Bad Request: /favicon.ico
+WARNING 2025-03-01 22:16:05,782 basehttp 9536 25120 "GET /favicon.ico HTTP/1.1" 400 74695
+INFO 2025-03-01 22:19:21,456 autoreload 9536 9376 C:\git\IR\recept\Recept\recipebookproject\settings.py changed, reloading.
+INFO 2025-03-01 22:19:21,911 autoreload 2320 21712 Watching for file changes with StatReloader
+INFO 2025-03-01 22:19:29,697 autoreload 18612 26860 Watching for file changes with StatReloader
+INFO 2025-03-01 22:19:33,539 basehttp 18612 20656 "GET / HTTP/1.1" 200 2625
+INFO 2025-03-01 22:19:33,648 basehttp 18612 20656 "GET /static/css/style.css HTTP/1.1" 200 2146
+INFO 2025-03-01 22:19:33,648 basehttp 18612 13676 "GET /static/css/recipe_box.css HTTP/1.1" 200 2515
+INFO 2025-03-01 22:19:33,661 basehttp 18612 20656 "GET /static/img/cooker_unknown.png HTTP/1.1" 200 28595
+INFO 2025-03-01 22:19:33,661 basehttp 18612 13676 "GET /static/img/cookbook.png HTTP/1.1" 200 52224
+WARNING 2025-03-01 22:19:33,717 log 18612 20656 Not Found: /favicon.ico
+WARNING 2025-03-01 22:19:33,717 basehttp 18612 20656 "GET /favicon.ico HTTP/1.1" 404 3910
+INFO 2025-03-01 22:19:43,253 basehttp 18612 20656 "GET /index/ HTTP/1.1" 200 2625
+INFO 2025-03-01 22:19:46,293 basehttp 18612 20656 "GET /user/ HTTP/1.1" 200 4375
+INFO 2025-03-01 22:19:46,325 basehttp 18612 20656 "GET /static/css/user.css HTTP/1.1" 200 3662
+INFO 2025-03-01 22:19:46,327 basehttp 18612 13676 "GET /static/js/user.js HTTP/1.1" 200 641
+INFO 2025-03-01 22:20:42,409 basehttp 18612 20732 "POST /user/ HTTP/1.1" 200 4707
+INFO 2025-03-01 22:21:24,901 basehttp 18612 19696 "POST /user/ HTTP/1.1" 200 4643
+INFO 2025-03-01 22:22:01,747 basehttp 18612 19696 "POST /user/ HTTP/1.1" 200 4707
+INFO 2025-03-01 22:22:22,532 basehttp 18612 19696 "POST /user/ HTTP/1.1" 200 4643
+INFO 2025-03-01 22:22:55,591 basehttp 18612 19696 "GET /index/ HTTP/1.1" 200 2625
+INFO 2025-03-01 22:22:57,178 basehttp 18612 19696 "GET /index/ HTTP/1.1" 200 2625
+INFO 2025-03-01 22:23:01,245 basehttp 18612 19696 "GET /user/ HTTP/1.1" 200 4375
+INFO 2025-03-01 22:24:00,703 basehttp 18612 19696 "POST /user/ HTTP/1.1" 200 4707
+INFO 2025-03-01 22:24:14,086 basehttp 18612 19696 "POST /user/ HTTP/1.1" 200 4643
+INFO 2025-03-01 22:24:22,364 basehttp 18612 19696 "GET /index/ HTTP/1.1" 200 2625
+INFO 2025-03-01 22:24:23,720 basehttp 18612 19696 "GET /user/ HTTP/1.1" 200 4375
+INFO 2025-03-01 22:24:24,491 basehttp 18612 19696 "GET /index/ HTTP/1.1" 200 2625
+INFO 2025-03-01 22:24:25,481 basehttp 18612 19696 "GET /index/ HTTP/1.1" 200 2625
+INFO 2025-03-01 22:24:26,839 basehttp 18612 19696 "GET /user/ HTTP/1.1" 200 4375
+INFO 2025-03-01 22:30:49,282 basehttp 18612 26028 "POST /user/ HTTP/1.1" 200 4707
+INFO 2025-03-01 22:31:04,363 basehttp 18612 26028 "POST /user/ HTTP/1.1" 200 4643
+INFO 2025-03-01 22:31:10,888 basehttp 18612 26028 "GET /index/ HTTP/1.1" 200 2625
+INFO 2025-03-01 22:31:19,501 basehttp 18612 26028 "GET /user/ HTTP/1.1" 200 4375
+INFO 2025-03-01 22:31:20,254 basehttp 18612 26028 "GET /index/ HTTP/1.1" 200 2625
+INFO 2025-03-01 22:31:21,116 basehttp 18612 26028 "GET /user/ HTTP/1.1" 200 4375
+INFO 2025-03-01 22:34:49,426 basehttp 18612 21852 "GET /admin/ HTTP/1.1" 302 0
+INFO 2025-03-01 22:34:49,492 basehttp 18612 21852 "GET /admin/login/?next=/admin/ HTTP/1.1" 200 4337
+INFO 2025-03-01 22:34:49,585 basehttp 18612 21852 "GET /static/admin/css/base.css HTTP/1.1" 200 21544
+INFO 2025-03-01 22:34:49,587 basehttp 18612 22940 "GET /static/admin/css/dark_mode.css HTTP/1.1" 200 2682
+INFO 2025-03-01 22:34:49,588 basehttp 18612 9136 "GET /static/admin/css/nav_sidebar.css HTTP/1.1" 200 2810
+INFO 2025-03-01 22:34:49,588 basehttp 18612 8896 "GET /static/admin/css/login.css HTTP/1.1" 200 958
+INFO 2025-03-01 22:34:49,589 basehttp 18612 28604 "GET /static/admin/css/responsive.css HTTP/1.1" 200 17905
+INFO 2025-03-01 22:34:49,594 basehttp 18612 19396 "GET /static/admin/js/theme.js HTTP/1.1" 200 1943
+INFO 2025-03-01 22:34:49,619 basehttp 18612 9136 "GET /static/admin/js/nav_sidebar.js HTTP/1.1" 200 3063
+WARNING 2025-03-01 22:34:49,692 log 18612 9136 Not Found: /favicon.ico
+WARNING 2025-03-01 22:34:49,693 basehttp 18612 9136 "GET /favicon.ico HTTP/1.1" 404 3910
+INFO 2025-03-01 22:35:17,615 basehttp 18612 9136 "POST /admin/login/?next=/admin/ HTTP/1.1" 302 0
+INFO 2025-03-01 22:35:17,644 basehttp 18612 9136 "GET /admin/ HTTP/1.1" 200 7203
+INFO 2025-03-01 22:35:17,688 basehttp 18612 9136 "GET /static/admin/css/dashboard.css HTTP/1.1" 200 441
+INFO 2025-03-01 22:35:17,706 basehttp 18612 19396 "GET /static/admin/img/icon-changelink.svg HTTP/1.1" 200 380
+INFO 2025-03-01 22:35:17,706 basehttp 18612 9136 "GET /static/admin/img/icon-addlink.svg HTTP/1.1" 200 331
+INFO 2025-03-01 22:35:24,299 basehttp 18612 9136 "GET /admin/recipebookapp/customuser/ HTTP/1.1" 200 12786
+INFO 2025-03-01 22:35:24,337 basehttp 18612 9136 "GET /static/admin/css/changelists.css HTTP/1.1" 200 6811
+INFO 2025-03-01 22:35:24,339 basehttp 18612 21852 "GET /static/admin/js/jquery.init.js HTTP/1.1" 200 347
+INFO 2025-03-01 22:35:24,342 basehttp 18612 8896 "GET /static/admin/js/core.js HTTP/1.1" 200 6208
+INFO 2025-03-01 22:35:24,343 basehttp 18612 22940 "GET /static/admin/js/admin/RelatedObjectLookups.js HTTP/1.1" 200 9042
+INFO 2025-03-01 22:35:24,345 basehttp 18612 19396 "GET /admin/jsi18n/ HTTP/1.1" 200 17546
+INFO 2025-03-01 22:35:24,358 basehttp 18612 21852 "GET /static/admin/js/urlify.js HTTP/1.1" 200 7887
+INFO 2025-03-01 22:35:24,361 basehttp 18612 8896 "GET /static/admin/js/prepopulate.js HTTP/1.1" 200 1531
+INFO 2025-03-01 22:35:24,361 basehttp 18612 9136 "GET /static/admin/js/actions.js HTTP/1.1" 200 8067
+INFO 2025-03-01 22:35:24,364 basehttp 18612 22940 "GET /static/admin/img/search.svg HTTP/1.1" 200 458
+INFO 2025-03-01 22:35:24,366 basehttp 18612 28604 "GET /static/admin/js/vendor/jquery/jquery.js HTTP/1.1" 200 285314
+INFO 2025-03-01 22:35:24,374 basehttp 18612 21852 "GET /static/admin/img/icon-yes.svg HTTP/1.1" 200 436
+INFO 2025-03-01 22:35:24,395 basehttp 18612 19396 "GET /static/admin/js/vendor/xregexp/xregexp.js HTTP/1.1" 200 325171
+INFO 2025-03-01 22:35:24,441 basehttp 18612 28604 "GET /static/admin/js/filters.js HTTP/1.1" 200 978
+INFO 2025-03-01 22:35:24,485 basehttp 18612 21852 "GET /static/admin/img/icon-viewlink.svg HTTP/1.1" 200 581
+INFO 2025-03-01 22:35:24,485 basehttp 18612 28604 "GET /static/admin/img/sorting-icons.svg HTTP/1.1" 200 1097
+INFO 2025-03-01 22:35:24,486 basehttp 18612 19396 "GET /static/admin/img/tooltag-add.svg HTTP/1.1" 200 331
+INFO 2025-03-01 22:35:55,225 basehttp 18612 26028 "POST /user/ HTTP/1.1" 200 4707
+INFO 2025-03-01 22:36:04,619 basehttp 18612 19396 "GET /admin/recipebookapp/category/ HTTP/1.1" 200 8390
+INFO 2025-03-01 22:36:04,656 basehttp 18612 19396 "GET /admin/jsi18n/ HTTP/1.1" 200 17546
+INFO 2025-03-01 22:36:06,152 basehttp 18612 19396 "GET /admin/recipebookapp/customuser/ HTTP/1.1" 200 12786
+INFO 2025-03-01 22:36:06,189 basehttp 18612 19396 "GET /admin/jsi18n/ HTTP/1.1" 200 17546
+INFO 2025-03-01 22:36:07,326 basehttp 18612 19396 "GET /admin/recipebookapp/recipe/ HTTP/1.1" 200 10134
+INFO 2025-03-01 22:36:07,361 basehttp 18612 19396 "GET /admin/jsi18n/ HTTP/1.1" 200 17546
+INFO 2025-03-01 22:36:08,677 basehttp 18612 19396 "GET /admin/recipebookapp/customuser/ HTTP/1.1" 200 12786
+INFO 2025-03-01 22:36:08,707 basehttp 18612 19396 "GET /admin/jsi18n/ HTTP/1.1" 200 17546
+INFO 2025-03-01 22:36:13,773 basehttp 18612 19396 "GET /admin/recipebookapp/customuser/add/ HTTP/1.1" 200 12149
+INFO 2025-03-01 22:36:13,799 basehttp 18612 19396 "GET /static/admin/css/forms.css HTTP/1.1" 200 9090
+INFO 2025-03-01 22:36:13,805 basehttp 18612 28604 "GET /admin/jsi18n/ HTTP/1.1" 200 17546
+INFO 2025-03-01 22:36:13,806 basehttp 18612 21852 "GET /static/admin/js/prepopulate_init.js HTTP/1.1" 200 586
+INFO 2025-03-01 22:36:13,818 basehttp 18612 19396 "GET /static/admin/css/widgets.css HTTP/1.1" 200 11800
+INFO 2025-03-01 22:36:13,823 basehttp 18612 21852 "GET /static/admin/js/change_form.js HTTP/1.1" 200 606
+INFO 2025-03-01 22:36:31,588 basehttp 18612 21852 "POST /admin/recipebookapp/customuser/add/ HTTP/1.1" 200 12677
+INFO 2025-03-01 22:36:31,621 basehttp 18612 21852 "GET /admin/jsi18n/ HTTP/1.1" 200 17546
+INFO 2025-03-01 22:36:48,774 basehttp 18612 21852 "POST /admin/recipebookapp/customuser/add/ HTTP/1.1" 302 0
+INFO 2025-03-01 22:36:48,842 basehttp 18612 21852 "GET /admin/recipebookapp/customuser/2/change/ HTTP/1.1" 200 24331
+INFO 2025-03-01 22:36:48,871 basehttp 18612 21852 "GET /admin/jsi18n/ HTTP/1.1" 200 17546
+INFO 2025-03-01 22:36:48,876 basehttp 18612 9136 "GET /static/admin/js/SelectBox.js HTTP/1.1" 200 4530
+INFO 2025-03-01 22:36:48,876 basehttp 18612 22940 "GET /static/admin/js/SelectFilter2.js HTTP/1.1" 200 15492
+INFO 2025-03-01 22:36:48,879 basehttp 18612 19396 "GET /static/admin/js/calendar.js HTTP/1.1" 200 9141
+INFO 2025-03-01 22:36:48,881 basehttp 18612 28604 "GET /static/admin/js/admin/DateTimeShortcuts.js HTTP/1.1" 200 19319
+INFO 2025-03-01 22:36:48,930 basehttp 18612 21852 "GET /static/admin/img/icon-clock.svg HTTP/1.1" 200 677
+INFO 2025-03-01 22:36:48,930 basehttp 18612 28604 "GET /static/admin/img/icon-unknown.svg HTTP/1.1" 200 655
+INFO 2025-03-01 22:36:48,931 basehttp 18612 9136 "GET /static/admin/img/icon-calendar.svg HTTP/1.1" 200 1086
+INFO 2025-03-01 22:36:48,931 basehttp 18612 22940 "GET /static/admin/img/icon-unknown-alt.svg HTTP/1.1" 200 655
+INFO 2025-03-01 22:36:48,931 basehttp 18612 19396 "GET /static/admin/img/selector-icons.svg HTTP/1.1" 200 3291
+INFO 2025-03-01 22:37:08,635 basehttp 18612 19396 "POST /admin/recipebookapp/customuser/2/change/ HTTP/1.1" 200 24274
+INFO 2025-03-01 22:37:08,669 basehttp 18612 19396 "GET /admin/jsi18n/ HTTP/1.1" 200 17546
+INFO 2025-03-01 22:37:15,655 basehttp 18612 19396 "POST /admin/recipebookapp/customuser/2/change/ HTTP/1.1" 302 0
+INFO 2025-03-01 22:37:15,679 basehttp 18612 19396 "GET /admin/recipebookapp/customuser/ HTTP/1.1" 200 13561
+INFO 2025-03-01 22:37:15,711 basehttp 18612 19396 "GET /static/admin/img/icon-no.svg HTTP/1.1" 200 560
+INFO 2025-03-01 22:37:15,711 basehttp 18612 22940 "GET /admin/jsi18n/ HTTP/1.1" 200 17546
+INFO 2025-03-01 22:37:57,043 basehttp 18612 26028 "POST /user/ HTTP/1.1" 302 0
+INFO 2025-03-01 22:37:57,058 basehttp 18612 26028 "GET /cooker HTTP/1.1" 301 0
+INFO 2025-03-01 22:37:57,070 basehttp 18612 11756 "GET /cooker/ HTTP/1.1" 200 2332
+INFO 2025-03-01 22:37:57,127 basehttp 18612 11756 "GET /static/css/recipe_detail.css HTTP/1.1" 200 1581
+INFO 2025-03-01 22:37:57,136 basehttp 18612 11756 "GET /static/img/logout_icon.png HTTP/1.1" 200 6080
+INFO 2025-03-01 22:38:02,202 basehttp 18612 11756 "GET /recipe_add/ HTTP/1.1" 200 3995
+INFO 2025-03-01 22:38:02,237 basehttp 18612 15000 "GET /static/css/popup.css HTTP/1.1" 200 636
+INFO 2025-03-01 22:38:02,238 basehttp 18612 11756 "GET /static/css/recipe_form.css HTTP/1.1" 200 1609
+INFO 2025-03-01 22:38:02,247 basehttp 18612 11756 "GET /static/js/textFieldCounter.js HTTP/1.1" 200 1468
+INFO 2025-03-01 22:38:02,247 basehttp 18612 15000 "GET /static/img/cooker_wellknown.png HTTP/1.1" 200 43406
+INFO 2025-03-01 22:38:02,251 basehttp 18612 15000 "GET /static/js/popup.js HTTP/1.1" 200 247
+INFO 2025-03-01 22:38:39,440 basehttp 18612 19396 "GET /admin/recipebookapp/customuser/2/change/ HTTP/1.1" 200 24163
+INFO 2025-03-01 22:38:39,469 basehttp 18612 19396 "GET /admin/jsi18n/ HTTP/1.1" 200 17546
+INFO 2025-03-01 22:39:02,492 basehttp 18612 19396 "POST /admin/recipebookapp/customuser/2/change/ HTTP/1.1" 302 0
+INFO 2025-03-01 22:39:02,514 basehttp 18612 19396 "GET /admin/recipebookapp/customuser/ HTTP/1.1" 200 13555
+INFO 2025-03-01 22:39:02,549 basehttp 18612 19396 "GET /admin/jsi18n/ HTTP/1.1" 200 17546
